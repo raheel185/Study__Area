@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="scss/main.css">
+
+</head>
+<body>
+	
+
+    <style>
+        body{
+            background:rgb(246,246,246);
+        }
+    </style>
+
+    <div style="padding:0; box-shadow: 3px 0px 25px rgba(0, 0, 0, 0.11);
+    border-radius: 10px; max-width: 1230px; background-color: white;" class="container-fluid">
+
+
+
+    <header >
+        <div class="topbar"></div>
+        <div class="navigation">
+            <div class="top-nav">
+                <div class="toprow d-flex align-items-center justify-content-between">
+                    <div class="left-side d-flex align-items-center">
+                        <a href="#" class="d-flex align-items-center justify-content-center text-uppercase">Library</a>
+                        <a href="#" class="d-flex align-items-center justify-content-center text-uppercase active">Study Area</a>
+                    </div>
+                    <div class="right-side d-flex align-items-center">
+                        <a href="#" class="d-flex align-items-center justify-content-center text-uppercase">Academy</a>
+                        <a href="#" class="d-flex align-items-center justify-content-center text-uppercase">Consultancy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottomrow d-none d-md-flex align-items-center justify-content-between">
+                <div class="left-side d-flex align-items-center">
+                    <div class="parent-box">
+                        <a style="color:#529AD0; font-weight: 600; font-family: Noto Sans;"  href="entrepreneurship-articles.html" class="d-flex align-items-center justify-content-center text-capitalize text-center parent-link">Entrepreneurship <br> Articles</a>
+                        <div style="z-index: 1000;" class="submenu arrow-show">
+                            <div class="arow-div"></div>
+                            <a href="#" class="child-link">Strategy</a>
+                            <a href="#" class="child-link">Innovation</a>
+                            <a href="#" class="child-link">System</a>
+                            <a href="#" class="child-link">Leadership</a>
+                            <a href="#" class="child-link">Culture</a>
+                            <a href="#" class="child-link">Vision</a>
+                            <a href="#" class="child-link">Power</a>
+                        </div>
+                    </div>
+                    <div class="parent-box">
+                        <a href="#" class="d-flex align-items-center justify-content-center text-capitalize text-center parent-link">Case <br> Studies</a>
+                        <div style="z-index: 1000; " class="submenu arrow-show">
+                            <div class="arow-div"></div>
+                            <a href="#" class="child-link">Entrepreneurs</a>
+                            <a href="#" class="child-link">Corporations</a>
+                            <a href="#" class="child-link">Key Lessons</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-side d-flex align-items-center">
+                    
+                    <div class="parent-box">
+                        <a  href="#" class="d-flex align-items-center justify-content-center text-capitalize text-center parent-link">Intrapreneurial <br> Articles</a>
+                        <div style="z-index: 1000;" class="submenu arrow-show">
+                            <div style="left:69px;" class="arow-div"></div>
+                            <a href="#" class="child-link">Qualitative</a>
+                            <a href="#" class="child-link">Quantitative</a>
+                            <a href="#" class="child-link">Request on Demand</a>
+                        </div>
+                    </div>
+
+                    <div class="parent-box">
+                        <a href="#" class="d-flex align-items-center justify-content-center text-capitalize text-center parent-link">Research <br> Reports</a>
+                        <div style="z-index: 1000;" class="submenu arrow-show">
+                            <div style="left:73px;"  class="arow-div"></div>
+                            <a href="#" class="child-link">Management</a>
+                            <a href="#" class="child-link">Psycology</a>
+                            <a href="#" class="child-link">Human Resources</a>
+                            <a href="#" class="child-link">Marketing</a>
+                            <a href="#" class="child-link">Finance</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-area">
+                <div class="image">
+                    <img src="img/info_logo.png" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="mobile-navbar d-md-none">
+                <div class="menu"> <span></span> </div>
+                <nav id="nav">
+                    <div class="nav-container">
+                        <ul class="main">
+                            <li>
+                                <div class="item d-flex align-items-center justify-content-between">
+                                    <a href="#" class="link">Entrepreneurship Articles</a>
+                                    <div class="icon ml-2" data-toggle="collapse" href="#entrepreneurship_articles" role="button" aria-expanded="false" aria-controls="entrepreneurship_articles">
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                </div>
+                                <div class="collapse" id="entrepreneurship_articles">
+                                    <ul class="main pl-4">
+                                        <li><a href="#">Strategy</a></li>
+                                        <li><a href="#">Innovation</a></li>
+                                        <li><a href="#">System</a></li>
+                                        <li><a href="#">Leadership</a></li>
+                                        <li><a href="#">Culture</a></li>
+                                        <li><a href="#">Vision</a></li>
+                                        <li><a href="#">Power</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item d-flex align-items-center justify-content-between">
+                                    <a href="#" class="link">Case Studies</a>
+                                    <div class="icon ml-2" data-toggle="collapse" href="#case_studies" role="button" aria-expanded="false" aria-controls="case_studies">
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                </div>
+                                <div class="collapse" id="case_studies">
+                                    <ul class="main pl-4">
+                                        <li><a href="#">Entrepreneurs</a></li>
+                                        <li><a href="#">Corporations</a></li>
+                                        <li><a href="#">Key Lessons</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item d-flex align-items-center justify-content-between">
+                                    <a href="#" class="link">Intrapreneurship Articles</a>
+                                    <div class="icon ml-2" data-toggle="collapse" href="#intrapreneurship_articles" role="button" aria-expanded="false" aria-controls="intrapreneurship_articles">
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                </div>
+                                <div class="collapse" id="intrapreneurship_articles">
+                                    <ul class="main pl-4">
+                                        <li><a href="#">Management</a></li>
+                                        <li><a href="#">Psycology</a></li>
+                                        <li><a href="#">Human Resources</a></li>
+                                        <li><a href="#">Marketing</a></li>
+                                        <li><a href="#">Finance</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item d-flex align-items-center justify-content-between">
+                                    <a href="#" class="link">Research Reports</a>
+                                    <div class="icon ml-2" data-toggle="collapse" href="#research_reports" role="button" aria-expanded="false" aria-controls="research_reports">
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                </div>
+                                <div class="collapse" id="research_reports">
+                                    <ul class="main pl-4">
+                                        <li><a href="#">Qualitative</a></li>
+                                        <li><a href="#">Quantitative</a></li>
+                                        <li><a href="#">Request on Demand</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="overlay"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container" style=" max-width:1200px; margin-bottom: 70px;">
+
+        <div class="row ">
+            
+            <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center">
+                <img src="img/headerImg.png" alt="" class="img-fluid">
+                <p style="text-transform: uppercase; color:#757575; font-family: Titillium Web; line-height: 25px; letter-spacing: 0.1em; margin-top: 20px;" class="h2 text-center">Entrepreneurship Articles</p>
+                <div class="blue-line"></div>
+               <p style="font-size:25px; color:#529AD0; font-weight: 600; line-height: 25px;  letter-spacing: 0.1em;" class="h2">Strategy</p>
+             
+        
+            </div>
+         </div>  
+
+    </div>
+
+    <div class="container">
+
+        <div class="row d-flex justify-content-center">
+        <form  class="d-flex align-items-center justify-content-center ">
+            <input  style="min-width:300px; background:rgb(245,245,245);" type="text" class="form-control border-0" placeholder="Search by title, author or keyboard">
+            <button class="btn btn-primary">Subscribe</button>
+        </form>
+    </div>
+        
+    </div>
+
+    <div class="container" style="max-width: 960px; margin-top: 8px;">
+
+        <div class="row d-flex justify-content-between">
+            <div style="font-size: 13px;
+            line-height: 25px; color: #9E9E9E;" class="col">X Articles</div>
+            <div style="font-size: 13px;
+            line-height: 25px; color: #9E9E9E;"  class="col text-right">SORT BY <img style="margin-left: 13px;" src="img/Vector.png" alt=""></div>
+        </div>
+
+    </div>
+
+   
+
+    <div class="container"><div class="grey-line"></div></div>
+
+    <div class="container " style="max-width: 1040px;">
+
+        <div class="row d-flex justify-content-center align-items-center">
+
+            <div class=" card articl ">
+                <img style= " border-radius: 10px; width:208px; height:156px;"  class="img-fluid" src="img/Marketing 4 4.png" alt="Card image cap">
+               <div class="line"></div>
+                <p class="author">Roberto Saliba</p>
+                <p style="font-weight: 600; font-size: 13px;">Diffusion of Innovation</p>
+                <div class="line"></div>
+                <div style="padding-bottom: 20px; width:77%;" class="likes d-flex justify-content-between mx-auto">
+                    <div>0 likes</div>
+                    <div>0 views</div>
+                </div>
+              </div>
+
+              <div class=" card articl ">
+                <img style= " border-radius: 10px; width:208px; height:156px;"  class="img-fluid" src="img/Marketing 4 4.png" alt="Card image cap">
+               <div class="line"></div>
+                <p class="author">Roberto Saliba</p>
+                <p style="font-weight: 600; font-size: 13px;">Diffusion of Innovation</p>
+                <div class="line"></div>
+                <div style="padding-bottom: 20px; width:77%;" class="likes d-flex justify-content-between mx-auto">
+                    <div>0 likes</div>
+                    <div>0 views</div>
+                </div>
+              </div>
+
+              <div class=" card articl ">
+                <img style= " border-radius: 10px; width:208px; height:156px;"  class="img-fluid" src="img/Marketing 4 4.png" alt="Card image cap">
+               <div class="line"></div>
+                <p class="author">Roberto Saliba</p>
+                <p style="font-weight: 600; font-size: 13px;">Diffusion of Innovation</p>
+                <div class="line"></div>
+                <div style="padding-bottom: 20px; width:77%;" class="likes d-flex justify-content-between mx-auto">
+                    <div>0 likes</div>
+                    <div>0 views</div>
+                </div>
+              </div>
+
+              <div class=" card articl ">
+                <img style= " border-radius: 10px; width:208px; height:156px;"  class="img-fluid" src="img/Marketing 4 4.png" alt="Card image cap">
+               <div class="line"></div>
+                <p class="author">Roberto Saliba</p>
+                <p style="font-weight: 600; font-size: 13px;">Diffusion of Innovation</p>
+                <div class="line"></div>
+                <div style="padding-bottom: 20px; width:77%;" class="likes d-flex justify-content-between mx-auto">
+                    <div>0 likes</div>
+                    <div>0 views</div>
+                </div>
+              </div>
+
+              <div class=" card articl articl2 ">
+                <img style= " border-radius: 10px; width:208px; height:156px;"  class="img-fluid" src="img/Marketing 4 4.png" alt="Card image cap">
+               <div class="line"></div>
+                <p class="author">Roberto Saliba</p>
+                <p style="font-weight: 600; font-size: 13px;">Diffusion of Innovation</p>
+                <div class="line"></div>
+                <div style="padding-bottom: 20px; width:77%;" class="likes d-flex justify-content-between mx-auto">
+                    <div>0 likes</div>
+                    <div>0 views</div>
+                </div>
+              </div>
+              <div class=" card articl articl2 ">
+                <img style= " border-radius: 10px; width:208px; height:156px;"  class="img-fluid" src="img/Marketing 4 4.png" alt="Card image cap">
+               <div class="line"></div>
+                <p class="author">Roberto Saliba</p>
+                <p style="font-weight: 600; font-size: 13px;">Diffusion of Innovation</p>
+                <div class="line"></div>
+                <div style="padding-bottom: 20px; width:77%;" class="likes d-flex justify-content-between mx-auto">
+                    <div>0 likes</div>
+                    <div>0 views</div>
+                </div>
+              </div>
+              <div class=" card articl articl2 ">
+                <img style= " border-radius: 10px; width:208px; height:156px;"  class="img-fluid" src="img/Marketing 4 4.png" alt="Card image cap">
+               <div class="line"></div>
+                <p class="author">Roberto Saliba</p>
+                <p style="font-weight: 600; font-size: 13px;">Diffusion of Innovation</p>
+                <div class="line"></div>
+                <div style="padding-bottom: 20px; width:77%;" class="likes d-flex justify-content-between mx-auto">
+                    <div>0 likes</div>
+                    <div>0 views</div>
+                </div>
+              </div>
+                <div class=" card articl articl2 ">
+                <img style= " border-radius: 10px; width:208px; height:156px;"  class="img-fluid" src="img/Marketing 4 4.png" alt="Card image cap">
+               <div class="line"></div>
+                <p class="author">Roberto Saliba</p>
+                <p style="font-weight: 600; font-size: 13px;">Diffusion of Innovation</p>
+                <div class="line"></div>
+                <div style="padding-bottom: 20px; width:77%;" class="likes d-flex justify-content-between mx-auto">
+                    <div>0 likes</div>
+                    <div>0 views</div>
+                </div>
+              </div>
+          
+        </div>
+        
+
+    </div>
+
+    
+
+
+    <div  class="container d-flex justify-content-center">
+    <a  href="#" style="width: 130px; margin-top: 70px; padding:15px 22px;" id="article-button">Load More</a>
+
+    
+</div>
+<div class="container"><div style="margin-bottom: 0px;" class="grey-line"></div></div>
+
+
+    <footer >
+        <div style="max-width: 1100px;" class="subscribe d-flex justify-content-between px-3 px-lg-0 flex-wrap flex-md-nowrap">
+            <div class="left-side mb-3 mb-md-0">
+                <h5 style="font-weight: 400; font-size: 18px;" class="mb-0 title">Subscribe</h5>
+                <p class="mb-0 subtitle">Sign up to our weekly content digest and stay up-to-date with the latest knowledge!</p>
+            </div>
+            <div class="right-side d-flex align-items-start">
+      
+                <form class="subscribe-form w-100">
+                    <input type="text" class="form-control border-0" placeholder="Email Address">
+                    <button class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-cover"></div>
+
+        <div class="footer-area d-flex px-3 px-lg-0 flex-wrap flex-md-nowrap">
+            <div class="footer-section d-flex flex-wrap flex-md-nowrap">
+                <div class="footer-logo">
+                    <img src="img/footerlogo.png" class="img-fluid" alt="">
+                </div>
+                <div class="footer-body">
+                    <div class="footer-links d-flex justify-content-between flex-wrap flex-md-nowrap mt-2 mt-md-0">
+                        <a href="#" class="link">About</a>
+                        <a href="#" class="link">Advertise</a>
+                        <a href="#" class="link">Contact</a>
+                        <a href="#" class="link">Write for Us</a>
+                        <a href="#" class="link">Terms of Use</a>
+                    </div>
+                    <p class="mb-0 copyright">&copy;2020 Infotopia Company Limited. All rights reserved.</p>
+                </div>
+            </div>
+            <div class="social-links d-flex align-items-end">
+                <img src="img/socialicons.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </footer>
+</div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+        
+        $('.menu, .overlay').click(function () {
+            $('.menu').toggleClass('clicked');
+            
+            $('#nav').toggleClass('show');
+            
+        });
+
+    </script>
+
+</body>
+</html>
