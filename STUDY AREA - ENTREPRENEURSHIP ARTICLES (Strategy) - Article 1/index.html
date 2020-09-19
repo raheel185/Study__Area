@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="scss/main.css">
+
+</head>
+<body>
+	
+
+    <style>
+        body{
+            background:rgb(246,246,246);
+        }
+    </style>
+
+    <div style="padding:0; box-shadow: 3px 0px 25px rgba(0, 0, 0, 0.11);
+    border-radius: 10px; max-width: 1230px; background-color: white;" class="container-fluid">
+
+
+
+    <header >
+        <div class="topbar"></div>
+        <div class="navigation">
+            <div class="top-nav">
+                <div class="toprow d-flex align-items-center justify-content-between">
+                    <div class="left-side d-flex align-items-center">
+                        <a href="#" class="d-flex align-items-center justify-content-center text-uppercase">Library</a>
+                        <a href="#" class="d-flex align-items-center justify-content-center text-uppercase active">Study Area</a>
+                    </div>
+                    <div class="right-side d-flex align-items-center">
+                        <a href="#" class="d-flex align-items-center justify-content-center text-uppercase">Academy</a>
+                        <a href="#" class="d-flex align-items-center justify-content-center text-uppercase">Consultancy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottomrow d-none d-md-flex align-items-center justify-content-between">
+                <div class="left-side d-flex align-items-center">
+                    <div class="parent-box">
+                        <a style="color:#529AD0; font-weight: 600; font-family: Noto Sans;"  href="entrepreneurship-articles.html" class="d-flex align-items-center justify-content-center text-capitalize text-center parent-link">Entrepreneurship <br> Articles</a>
+                        <div style="z-index: 1000;" class="submenu arrow-show">
+                            <div class="arow-div"></div>
+                            <a href="#" class="child-link">Strategy</a>
+                            <a href="#" class="child-link">Innovation</a>
+                            <a href="#" class="child-link">System</a>
+                            <a href="#" class="child-link">Leadership</a>
+                            <a href="#" class="child-link">Culture</a>
+                            <a href="#" class="child-link">Vision</a>
+                            <a href="#" class="child-link">Power</a>
+                        </div>
+                    </div>
+                    <div class="parent-box">
+                        <a href="#" class="d-flex align-items-center justify-content-center text-capitalize text-center parent-link">Case <br> Studies</a>
+                        <div style="z-index: 1000; " class="submenu arrow-show">
+                            <div class="arow-div"></div>
+                            <a href="#" class="child-link">Entrepreneurs</a>
+                            <a href="#" class="child-link">Corporations</a>
+                            <a href="#" class="child-link">Key Lessons</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-side d-flex align-items-center">
+                    
+                    <div class="parent-box">
+                        <a  href="#" class="d-flex align-items-center justify-content-center text-capitalize text-center parent-link">Intrapreneurial <br> Articles</a>
+                        <div style="z-index: 1000;" class="submenu arrow-show">
+                            <div style="left:69px;" class="arow-div"></div>
+                            <a href="#" class="child-link">Qualitative</a>
+                            <a href="#" class="child-link">Quantitative</a>
+                            <a href="#" class="child-link">Request on Demand</a>
+                        </div>
+                    </div>
+
+                    <div class="parent-box">
+                        <a href="#" class="d-flex align-items-center justify-content-center text-capitalize text-center parent-link">Research <br> Reports</a>
+                        <div style="z-index: 1000;" class="submenu arrow-show">
+                            <div style="left:73px;"  class="arow-div"></div>
+                            <a href="#" class="child-link">Management</a>
+                            <a href="#" class="child-link">Psycology</a>
+                            <a href="#" class="child-link">Human Resources</a>
+                            <a href="#" class="child-link">Marketing</a>
+                            <a href="#" class="child-link">Finance</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-area">
+                <div class="image">
+                    <img src="img/info_logo.png" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="mobile-navbar d-md-none">
+                <div class="menu"> <span></span> </div>
+                <nav id="nav">
+                    <div class="nav-container">
+                        <ul class="main">
+                            <li>
+                                <div class="item d-flex align-items-center justify-content-between">
+                                    <a href="#" class="link">Entrepreneurship Articles</a>
+                                    <div class="icon ml-2" data-toggle="collapse" href="#entrepreneurship_articles" role="button" aria-expanded="false" aria-controls="entrepreneurship_articles">
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                </div>
+                                <div class="collapse" id="entrepreneurship_articles">
+                                    <ul class="main pl-4">
+                                        <li><a href="#">Strategy</a></li>
+                                        <li><a href="#">Innovation</a></li>
+                                        <li><a href="#">System</a></li>
+                                        <li><a href="#">Leadership</a></li>
+                                        <li><a href="#">Culture</a></li>
+                                        <li><a href="#">Vision</a></li>
+                                        <li><a href="#">Power</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item d-flex align-items-center justify-content-between">
+                                    <a href="#" class="link">Case Studies</a>
+                                    <div class="icon ml-2" data-toggle="collapse" href="#case_studies" role="button" aria-expanded="false" aria-controls="case_studies">
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                </div>
+                                <div class="collapse" id="case_studies">
+                                    <ul class="main pl-4">
+                                        <li><a href="#">Entrepreneurs</a></li>
+                                        <li><a href="#">Corporations</a></li>
+                                        <li><a href="#">Key Lessons</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item d-flex align-items-center justify-content-between">
+                                    <a href="#" class="link">Intrapreneurship Articles</a>
+                                    <div class="icon ml-2" data-toggle="collapse" href="#intrapreneurship_articles" role="button" aria-expanded="false" aria-controls="intrapreneurship_articles">
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                </div>
+                                <div class="collapse" id="intrapreneurship_articles">
+                                    <ul class="main pl-4">
+                                        <li><a href="#">Management</a></li>
+                                        <li><a href="#">Psycology</a></li>
+                                        <li><a href="#">Human Resources</a></li>
+                                        <li><a href="#">Marketing</a></li>
+                                        <li><a href="#">Finance</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item d-flex align-items-center justify-content-between">
+                                    <a href="#" class="link">Research Reports</a>
+                                    <div class="icon ml-2" data-toggle="collapse" href="#research_reports" role="button" aria-expanded="false" aria-controls="research_reports">
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                </div>
+                                <div class="collapse" id="research_reports">
+                                    <ul class="main pl-4">
+                                        <li><a href="#">Qualitative</a></li>
+                                        <li><a href="#">Quantitative</a></li>
+                                        <li><a href="#">Request on Demand</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="overlay"></div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container" style=" max-width:1000px; margin-bottom: 70px;">
+
+        <div class="row d-flex justify-content-between header-upper-content">
+            <div style="text-align: left;" >
+                <h4  style="font-size: 16px; color: #424242; font-weight: 500;">Category</h4>
+                <p style="font-size: 13px; color: #9e9e9e;">Innovation</p>
+                <h4  style="font-size: 16px; color: #424242; font-weight: 500;">Category</h4>
+                <p style="font-size: 13px; color: #9e9e9e;">Name & Surname</p>
+            </div>
+
+            <div style="text-align: right;" >
+                <h4  style="font-size: 16px; color: #424242; font-weight: 500;">Reading Time</h4>
+                <p style="font-size: 13px; color: #9e9e9e;">X Minutes</p>
+                <h4  style="font-size: 16px; color: #424242; font-weight: 500;">Last Updated</h4>
+                <p style="font-size: 13px; color: #9e9e9e;">Date</p>
+            </div>
+
+
+        </div>
+
+        <div class="row d-flex justify-content-center">
+;
+
+            <div class="col-sm-8 d-flex flex-column justify-content-center align-items-center">
+                <img style="max-width: 280px;" src="img/Human Resources.png" alt="" class="img-fluid">
+                <p style="font-size: 25px; color:#757575; font-family: Titillium Web; line-height: 25px; letter-spacing: 0.1em; margin-top: 20px;" class="h2 text-center">Disruptive Innovation</p>
+                <div class="blue-line"></div>
+               <p style="font-size:14px;  font-weight: 500;color: #424242; line-height: 25px;  letter-spacing: 0.1em;" class="h2">Learning Outcomes</p>
+                <p style="font-size: 13px; color:#454545;line-height: 25px; text-align: center;">
+                    Defining the phenomenon of disruption innovation.<br>
+                    How the innovation disruption takes place and which factors evoke it.<br>
+                Ways to leverage the innovation disruption at our advantage..
+                </p>
+                
+        
+            </div>
+
+     
+         </div>  
+
+    </div>
+
+
+
+   
+   
+
+    <div class="container"><div class="grey-line"></div></div>
+
+    <div class="container " style="max-width: 1000px;">
+
+       <div class="row">
+           <article>
+            <h2 class="article-title">Introduction</h2>
+            <p>
+             We are often surprised how seemingly invincible companies, like Toys R Us, could not survive in the modern times, and 
+             how a young recruit, Jorgen Vig Knudstorp, saved LEGO from its brick of bankruptcy. We read about the innovation 
+             disruption, as the main cause of many downfalls or triumphs from a “David vs Goliath” scene, like that of Netflix against 
+             its multi-billion competitor, Blockbuster, but few really know what it stands for.
+             
+             Certainly, we all know that we are living in a planet of endless choices and opportunities, where new products are 
+             launched at an ever-increasing pace. As the saying goes, “one nail drives out another.” Therefore, we are constantly 
+             concerned that our organisation may be replaced in the next decade or so. But since it is not the strongest species that 
+             survive, but those who can manage to adapt, the innovation disruption must not be something that we resist, but 
+             something that we accept, and by understanding it properly, we are at a step closer to embrace it.
+            </p>
+           </article>
+
+           <article>
+            <h2 class="article-title">Definition and understanding</h2>
+            <p>
+                The concept of disruptive innovation was first coined by Bower and Christensen (1995) and introduced in more detail in 
+                The Innovator’s Dilemma book (Christensen, 1997). Disruptive innovation refers to a product or approach which either 
+                disrupts an existing marketplace or creates a completely new market segment. Indeed, Simmons et al (2013) defined it 
+                as the “discontinuous, generational, or breakthrough product, and technology innovation that can create new 
+                paradigms” (p. 746). But disruptive innovation does not always have to be a product. It can be a new way of serving 
+                customers or an innovative business model.
+                
+                The disruption innovation often starts as inferior and underestimated to existing and well-established alternatives. It 
+                initially attracts just a small market segment or simply unsought customers, whereas the conventional alternatives with 
+                sustaining innovation are preferred by the more profitable and mainstream customers. Hence, as can be seen in Figure 
+                X.X below, a threat of disruption innovation seems harmless and minimal
+            </p>
+            <div class="figure d-flex flex-column align-items-start">
+                <p>Figure 1: Innovation Disruption</p>
+                <img  src="img/image.png" alt="" class="img-fluid align-self-center">
+            </div>
+
+            <p>
+                However, once the innovation disruption proves to be feasible, and perhaps better to the conventional alternatives, the 
+                multi-billion and well-established companies, who are usually market leaders of the industry, will take notice and 
+                respond to this new competition. The problem, however, is that such response comes too late. Their competitor with 
+                disruptive innovation, would have already become unstoppable. Indeed, a response to the new competition with 
+                likewise innovation is not enough, as the competitor would have already managed to refine this new alternative, to be 
+                their superior product or business model. Of course, disruptive innovation entails a high level of risk and most 
+                organizations with a well-establish alternative are not willing to go into the hassle. They may argue that “it is better 
+                with the devil you know.” But without realising, the become victims of their own success and begins to take things for 
+                granted.
+            </p>
+
+           </article>
+           
+           <article>
+            <h2 class="article-title">The Emergence of Disruptive Innovation</h2>
+            <p>
+                Most well-established organizations fall into the trap of becoming overconfident with their success and hence, feel invincible. They begin to rely too much on their past success and underestimate the potential of their competitors, notably new market entrants and start-up companies. Since prevention is better than cure, well-establish organization should remain vigilant against any possible of disruptive innovation.
+                <br><br>
+                Disruptive innovation emerges in two aspects that are generally overlooked or give enough gap for competitors to seize the opportunity: low-end or new-market footholds. On the one hand, the low-end foothold exists because most of the well-established companies tend to continuously shift their focus on lucrative customers and neglect the rest. They become selective enough to abandon part of the market. As a result, they benefit from high profit margins and probably enjoy lower margins of expenses, but this would leave leeway for competitors to seize the leftovers. For example, when Adobe Inc. changed its transaction approach from a one-time fee to a monthly subscription and continued to increase its price, consumers who used its software applications periodically, could not afford it or simply was not worth it anymore. However, this problem was a great opportunity in disguise for Serif (Europe) Ltd to reach these customers with its Affinity software applications. Although not a result from disruptive innovation, they offered a one-time purchase fee and 50% discount during the COVID-19 pandemic. On the other hand, the new-market foothold exists when the disruptive innovation, like the first commercial aeroplane, back in its initial days, creates a market segment, which did not exist previously. In other words, they turn non-customers into customers.
+                <br><br>
+                Disruptive innovation usually emerges from one of these footholds only. However, Amazon triumphed on both. Back in 1995, its founder, Jeff Bezos, envisioned to launch an online bookstore. The Internet was still unknown by most of the society, so purchasing a physical book online, especially from another country on the other side of the planet, was relatively unheard of. He began to cater for customers that normally were unreachable.
+                <br><br>
+                Eventually, Amazon launched the Kindle Direct Publishing, and this changed drastically the business between many authors and traditional book publishers. In the past, most authors would have been lucky to receive 10% royalties from their books, if they were accepted in the first place. But with the Kindle Direct Publishing, many aspiring authors, who have only dreamed to publish their books, can now opt for self-publishing and even create a digital version. The reading public quickly adopted the idea of reading from screens. With a little push from competitors, Amazon allowed the authors to set their own prices for their books, receive a higher percentage of royalties, and choose their own cover design, and reach a certain level of autonomy over their books. Many traditional publishers had to abide by this new system or otherwise shut down their business.
+
+            </p>
+           </article>
+
+           <article>
+            <h2 class="article-title">Strategies for Innovation Disruption</h2>
+            <p>
+                Unfortunately, or not, we cannot stop the continuous changes which occur in our planet. However, as the saying goes, “if you cannot beat them, join them.” We must not prepare ourselves for ways of resisting innovation disruption but learning how to embrace it to our advantage. This article provides three advices in doing so:
+            </p>
+
+            <div class="subarticles">
+                <h4 class="sub-article">Remain Humble and Vigilant</h4>
+                <p>Over confidence and self-indulgence on past success is a sure way to get blindsided over the ongoing process of disruptive innovations. We need to keep an eye on the new entrants, invest on the competition intelligence, and stay aware of what is going on around us. We must never isolate ourselves and operate into our comfort zones. We must also never underestimate our competitors. If Blockbuster did not refuse the offer to take over Netflix for $50 million, it would probably not end up beaten by the same competitor they rejected. In contrast, John Rockefeller would buyout every competitor, large or small, for Standard Oil Company to maintain its monopoly (Chernow, 2014).</p>
+            </div>
+
+            <div class="subarticles">
+                <h4 class="sub-article">Avoid the Innovation Myopia</h4>
+                <p>
+                    Although products can be common driving forces of disruptive innovation, we should not depend solely on them. As we discuss in the beginning of this article, disruptive innovation can also take place in the way we serve our customers or from an innovative business model. Furthermore, disruptive innovation is one of four types of innovations, as discussed in The Innovation Matrix article. We need to diversity our innovation potential and prioritize on areas that yield the best opportunities.
+                </p>
+            </div>
+            <div class="subarticles">
+                <h4 class="sub-article">Remain persistent</h4>
+                <p>
+                    Disruptive innovation necessitates patience and many attempts, even in cases of serendipity. Rome was not built in a day and likewise, ground-breaking solutions are often discovered through smaller and incremental improvements in due course. We are likely to face many obstacles in our entrepreneurial journey. For instance, Henry Ford had to endure two failed business ventures and countless of sleepless nights, before he could finally make a legacy with the Model T automobile, that would eventually change a whole human transportation system. Thus, we need to remain reasonably persistent, so we can hopefully leverage The Flywheel Effect. As Jack Ma once said, “If there are nine rabbits on the ground, if you want to catch one, just focus on one. Change your tactics if you need to, but don’t change the rabbit” (Clark, 2016, p. 24).
+                </p>
+            </div>
+
+            <div class="like-article d-flex align-items-center justify-content-center">
+                <span>Do you like this article </span><img style="margin-left: 26px;" src="img/ant-design_like-outlined.png" alt="likeshow">
+            </div>
+
+
+           </article>
+
+           <article>
+            <h2 class="article-title">Citations and References</h2>
+            <p>
+                -	Bower, J. & Christensen, C. M. (1995). “Disruptive Technologies: Catching the Wave”, Harvard Business Review. Retrieved from: https://hbr.org/1995/01/disruptive-technologies-catching-the-wave
+                <br><br>
+                -	Christensen, C. M. (1997). The Innovator's Dilemma: When new technologies cause great firms to fail. Boston, Mass: Harvard Business School Press. 
+                <br><br>
+                -	Simmons, G., Palmer, M. & Truong, Y. (2013). “The inscribing value on business model innovations: Insights from industrial projects commercializing disruptive digital innovations’, Industrial Marketing Management, 42(5), 744-754.
+                <br><br>
+                -	Chernow, R. (2004). Titan: The Life of John D. Rockefeller, (Kindle Ed.) Sr. Vintage – ASIN: 0062060244
+                <br><br>
+                -	Clark, D. (2016). Alibaba: The House That Jack Ma Built, (Kindle Ed.) – ASIN: B0124PP3AA
+               
+            </p>
+           </article>
+
+       </div>
+          
+        </div>
+        <div class="container"><div style="margin-bottom: 50px;" class="grey-line"></div></div>
+
+        <div style="max-width:742px;" class="container">
+            <div class="d-flex align-items-center">
+
+                <img style="margin-bottom: 5px; max-width: 133px; height:auto;" src="img/Author - Roberto Saliba.png" class="img-fluid" alt="">
+                <p style= "max-width:592px; margin-left: auto;">
+                    Author of the Entrepreneurial Leadership book and a seasoned writer who specializes into leadership, vision, strategy, and innovation. When he is not at his desk writing, he can be found writing somehwere else. If he is not writing, kindly check out his pulse. He might be dead.
+                </p>
+
+            </div>   
+           <br>
+            <p>Roberto Saliba</p>
+        </div>
+        <div class="container"><div style="margin-bottom: 50px;" class="grey-line"></div></div>
+
+        <div style="background:#F5F5F5; padding:35px; max-width:792px;" class="container">
+       
+            <div class="form-group">
+                <label for="comment">Leave a comment</label>
+                <textarea class="form-control" rows="1" id="comment"></textarea>
+              </div>
+              <span>Show Comments (2) <img style="margin-left:10px;" src="img/V Symbol.png" alt=""></span>
+        </div>
+
+
+
+    <footer >
+        <div style="max-width: 1100px;" class="subscribe d-flex justify-content-between px-3 px-lg-0 flex-wrap flex-md-nowrap">
+            <div class="left-side mb-3 mb-md-0">
+                <h5 style="font-weight: 400; font-size: 18px;" class="mb-0 title">Subscribe</h5>
+                <p class="mb-0 subtitle">Sign up to our weekly content digest and stay up-to-date with the latest knowledge!</p>
+            </div>
+            <div class="right-side d-flex align-items-start">
+      
+                <form class="subscribe-form w-100">
+                    <input type="text" class="form-control border-0" placeholder="Email Address">
+                    <button class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-cover"></div>
+
+        <div class="footer-area d-flex px-3 px-lg-0 flex-wrap flex-md-nowrap">
+            <div class="footer-section d-flex flex-wrap flex-md-nowrap">
+                <div class="footer-logo">
+                    <img src="img/footerlogo.png" class="img-fluid" alt="">
+                </div>
+                <div class="footer-body">
+                    <div class="footer-links d-flex justify-content-between flex-wrap flex-md-nowrap mt-2 mt-md-0">
+                        <a href="#" class="link">About</a>
+                        <a href="#" class="link">Advertise</a>
+                        <a href="#" class="link">Contact</a>
+                        <a href="#" class="link">Write for Us</a>
+                        <a href="#" class="link">Terms of Use</a>
+                    </div>
+                    <p class="mb-0 copyright">&copy;2020 Infotopia Company Limited. All rights reserved.</p>
+                </div>
+            </div>
+            <div class="social-links d-flex align-items-end">
+                <img src="img/socialicons.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </footer>
+</div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+        
+        $('.menu, .overlay').click(function () {
+            $('.menu').toggleClass('clicked');
+            
+            $('#nav').toggleClass('show');
+            
+        });
+
+    </script>
+
+</body>
+</html>
