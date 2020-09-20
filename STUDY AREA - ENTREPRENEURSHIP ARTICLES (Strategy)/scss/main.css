@@ -1070,6 +1070,10 @@ p {
   .h-para {
     width: 95%;
   }
+  .header-text {
+    font-size: 25px;
+    white-space: nowrap;
+  }
 }
 
 @media (max-width: 520px) {
@@ -1084,14 +1088,22 @@ p {
         -ms-flex-align: center;
             align-items: center;
   }
-  #form-row input, #mainbtn {
+  #form-row input {
     max-width: 260px;
+  }
+  #mainbtn {
+    min-width: 260px;
+    margin: 14px 0;
   }
 }
 
 @media (max-width: 400px) {
   #form-now button {
     margin-top: 100px;
+  }
+  .header-text {
+    font-size: 20px;
+    white-space: nowrap;
   }
 }
 
