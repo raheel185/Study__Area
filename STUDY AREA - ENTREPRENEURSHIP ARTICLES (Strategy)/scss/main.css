@@ -1072,6 +1072,29 @@ p {
   }
 }
 
+@media (max-width: 520px) {
+  #form-row {
+    display: none;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #form-row input, #mainbtn {
+    max-width: 260px;
+  }
+}
+
+@media (max-width: 400px) {
+  #form-now button {
+    margin-top: 100px;
+  }
+}
+
 @media (max-width: 420px) {
   .newrow, .title-content {
     display: -webkit-box;

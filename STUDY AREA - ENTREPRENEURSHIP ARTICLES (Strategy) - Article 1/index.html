@@ -15,11 +15,6 @@
 <body>
 	
 
-    <style>
-        body{
-            background:rgb(246,246,246);
-        }
-    </style>
 
     <div style="padding:0; box-shadow: 3px 0px 25px rgba(0, 0, 0, 0.11);
     border-radius: 10px; max-width: 1230px; background-color: white;" class="container-fluid">
@@ -176,7 +171,7 @@
     </header>
 
 
-    <div class="container" style=" max-width:1000px; margin-bottom: 70px;">
+    <div class="container heaader__category" style=" max-width:900px; margin-bottom: 70px;">
 
         <div class="row d-flex justify-content-between header-upper-content">
             <div style="text-align: left;" >
@@ -223,9 +218,9 @@
    
    
 
-    <div class="container"><div class="grey-line"></div></div>
+    <div style="margin-bottom: -25px;" class="container"><div class="grey-line"></div></div>
 
-    <div class="container " style="max-width: 1000px;">
+    <div class="container " style="max-width: 900px;">
 
        <div class="row">
            <article>
@@ -260,7 +255,8 @@
                 X.X below, a threat of disruption innovation seems harmless and minimal
             </p>
             <div class="figure d-flex flex-column align-items-start">
-                <p>Figure 1: Innovation Disruption</p>
+                <p style= "font-weight: 500;
+                font-size: 16px;">Figure 1: Innovation Disruption</p>
                 <img  src="img/image.png" alt="" class="img-fluid align-self-center">
             </div>
 
@@ -316,7 +312,7 @@
                 </p>
             </div>
 
-            <div class="like-article d-flex align-items-center justify-content-center">
+            <div style="margin-top: 69px; margin-bottom: 50px;" class="like-article d-flex align-items-center justify-content-center">
                 <span>Do you like this article </span><img style="margin-left: 26px;" src="img/ant-design_like-outlined.png" alt="likeshow">
             </div>
 
@@ -344,29 +340,111 @@
         </div>
         <div class="container"><div style="margin-bottom: 50px;" class="grey-line"></div></div>
 
-        <div style="max-width:742px;" class="container">
-            <div class="d-flex align-items-center">
+        <div style="max-width:742px; " class="container ">
+            <div class="row d-flex align-items-center">
+            <div class="d-flex flex-column align-items-center">
 
                 <img style="margin-bottom: 5px; max-width: 133px; height:auto;" src="img/Author - Roberto Saliba.png" class="img-fluid" alt="">
-                <p style= "max-width:592px; margin-left: auto;">
-                    Author of the Entrepreneurial Leadership book and a seasoned writer who specializes into leadership, vision, strategy, and innovation. When he is not at his desk writing, he can be found writing somehwere else. If he is not writing, kindly check out his pulse. He might be dead.
-                </p>
+                <p>Roberto Saliba</p>
 
             </div>   
            <br>
-            <p>Roberto Saliba</p>
+           <p style= "max-width:592px; margin-left: auto;">
+            Author of the Entrepreneurial Leadership book and a seasoned writer who specializes into leadership, vision, strategy, and innovation. When he is not at his desk writing, he can be found writing somehwere else. If he is not writing, kindly check out his pulse. He might be dead.
+        </p>
+    </div>
         </div>
         <div class="container"><div style="margin-bottom: 50px;" class="grey-line"></div></div>
 
         <div style="background:#F5F5F5; padding:35px; max-width:792px;" class="container">
        
             <div class="form-group">
-                <label for="comment">Leave a comment</label>
+                <label class="sub-article" style="margin-bottom: 20px; margin-top: 0px;" for="comment">Leave a comment</label>
                 <textarea class="form-control" rows="1" id="comment"></textarea>
               </div>
-              <span>Show Comments (2) <img style="margin-left:10px;" src="img/V Symbol.png" alt=""></span>
+              <span style="font-size: 12px; font-weight: 600;" class="sub-article">Show Comments (2) <img style="margin-left:10px;" src="img/V Symbol.png" alt=""></span>
         </div>
 
+
+
+        <div class="container"><div style="margin-bottom: 50px;" class="grey-line"></div></div>
+        <h5 class="sub-article text-center">Recommended Articles</h5>
+
+        <div style="position:relative; max-width: 843px;" class="container slider">
+            <img class="leftarrow" src="img/left arrow.png" alt="">
+
+            <div class="row d-flex justify-content-center">
+                <div class=" card articl ">
+                    <img style="max-width: 206px;" class="img-fluid" src="img/DIffusion of innovation.png" alt="Card image cap">
+                    <div class="line"></div>
+                    <div class="card-body">
+                        <p style="font-family: Noto Sans; color: #424242; font-size: 12px; text-align: center; line-height: 15px; font-weight: 700; letter-spacing: 0.03em;" class="h6">Insert Title Here</p>
+                    </div>
+                  </div>
+                  <div  class=" card articl ">
+                    <img style="max-width: 206px;" class="img-fluid" src="img/DIffusion of innovation.png" alt="Card image cap">
+                    <div class="line"></div>
+                    <div class="card-body">
+                        <p style="font-family: Noto Sans; color: #424242; font-size: 12px; text-align: center; line-height: 15px; font-weight: 700; letter-spacing: 0.03em;" class="h6">Insert Title Here</p>
+                    </div>
+                  </div>
+                  <div  class=" card articl ">
+                    <img style="max-width: 206px;" class="img-fluid" src="img/DIffusion of innovation.png" alt="Card image cap">
+                    <div class="line"></div>
+                    <div class="card-body">
+                        <p style="font-family: Noto Sans; color: #424242; font-size: 12px; text-align: center; line-height: 15px; font-weight: 700; letter-spacing: 0.03em;" class="h6">Insert Title Here</p>
+                    </div>
+                  </div>
+            </div>
+            <img class="rightarrow" src="img/right arrow.png" alt="">
+            <div class="container"><div style="margin-bottom: 50px;" class="grey-line"></div></div>
+
+        </div>
+
+
+
+        <div style=" margin:auto; max-width: 500px; margin-top: -4em;" id="carouselExampleControls" class="carousel slide main-slider" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active ">
+                <div style="max-width: 210px;" class=" card articl mx-auto ">
+                    <img style="max-width: 206px;" class="img-fluid" src="img/DIffusion of innovation.png" alt="Card image cap">
+                    <div class="line"></div>
+                    <div class="card-body">
+                        <p style="font-family: Noto Sans; color: #424242; font-size: 12px; text-align: center; line-height: 15px; font-weight: 700; letter-spacing: 0.03em;" class="h6">Insert Title Here</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item ">
+                <div style="max-width: 210px;" class=" card articl mx-auto">
+                    <img style="max-width: 206px;" class="img-fluid" src="img/DIffusion of innovation.png" alt="Card image cap">
+                    <div class="line"></div>
+                    <div class="card-body">
+                        <p style="font-family: Noto Sans; color: #424242; font-size: 12px; text-align: center; line-height: 15px; font-weight: 700; letter-spacing: 0.03em;" class="h6">Insert Title Here</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item ">
+                <div style="max-width: 210px;" class=" card articl mx-auto">
+                    <img style="max-width: 206px;" class="img-fluid" src="img/DIffusion of innovation.png" alt="Card image cap">
+                    <div class="line"></div>
+                    <div class="card-body">
+                        <p style="font-family: Noto Sans; color: #424242; font-size: 12px; text-align: center; line-height: 15px; font-weight: 700; letter-spacing: 0.03em;" class="h6">Insert Title Here</p>
+                    </div>
+                  </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <img src="img/left arrow.png" alt="">
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             <img src="img/right arrow.png" alt="">
+            </a>
+
+            <div class="container"><div style="margin-bottom: 50px;" class="grey-line"></div></div>
+
+          </div>
+        </div>
 
 
     <footer >
